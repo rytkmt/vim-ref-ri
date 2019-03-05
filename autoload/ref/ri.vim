@@ -117,7 +117,7 @@ function! ref#ri#define() " {{{2
   return copy(s:source)
 endfunction
 
-call ref#register_detection('ruby', 'ri')
+call ref#register_detection('ruby', 'ri', 'overwrite')
 
 " syntax highlight {{{1
 function! s:syntax() "
